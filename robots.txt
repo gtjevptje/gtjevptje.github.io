@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# ⚠ THIS is the robots.txt every crawler actually reads.
+#
+# robots.txt is fetched from the domain ROOT and nowhere else, so
+# /Macronaut/robots.txt — which is what this project published for its first
+# month — was never read by anything. The practical loss was the Sitemap line
+# below: a sitemap is discovered here, or through a Search Console account, and
+# there was no third option. It sat unread while the site sat unindexed.
+#
+# Keep both files. The one in /Macronaut/ is correct for anyone who looks there
+# and costs nothing; this one is the one that works.
+Sitemap: https://gtjevptje.github.io/Macronaut/sitemap.xml
